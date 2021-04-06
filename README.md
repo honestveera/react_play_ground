@@ -1,8 +1,8 @@
 # React
 
-React is a front end library
+React is a javascript front end library
 
-Why should use react?
+# Why should use react?
 
 1. Reusable components
 2. SPA (Single page application)
@@ -11,12 +11,13 @@ Why should use react?
 
 # PREREQUISITE:
 
-1.Basic Javascript (Datatypes, function and loops)
-2.Promises and Assynchronous
-3.Array methods like forEach & map()
-4.Fetch API and making HTTP request
+1. Basic Javascript (Datatypes, function and loops)
+2. Promises and Assynchronous
+3. Array methods like forEach & map()
+4. Fetch API and making HTTP request
 
 # Topics:
+
 1. Fundamental
 2. HTTP
 3. Routing
