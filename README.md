@@ -38,8 +38,8 @@ NPM - ` npm install create-react-app -g ; create-react-app project_name `
 Components are return html elements. each components are reusable
 
 Two types:
- 1. Functional components
- 2. Class components
+ 1. Functional components [Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/components/functional_component.jsx)
+ 2. Class components [Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/components/class_component.js)
 
 ## Available Scripts
 
