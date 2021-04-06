@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React is a front end library
+
+Why should use react?
+
+1. Reusable components
+2. SPA (Single page application)
+3. Virtual Dom concept
+4. Dynamic markup (JSX)
+
+# PREREQUISITE:
+
+1.Basic Javascript (Datatypes, function and loops)
+2.Promises and Assynchronous
+3.Array methods like forEach & map()
+4.Fetch API and making HTTP request
+
+# Topics:
+1. Fundamental
+2. HTTP
+3. Routing
+4. Redux
+5. Utilities
+
+## 1. Fundamental
+
+Two ways to create react project:
+
+What is NPX?
+NPX is nothing but npm package runner
+NPX - ` npx create-react-app project_name `
+NPM - ` npm install create-react-app -g ; create-react-app project_name `
+
+### Components:
+
+Components are return html elements. each components are reusable
+
+Two types:
+ 1. Functional components
+ 2. Class components
 
 ## Available Scripts
 

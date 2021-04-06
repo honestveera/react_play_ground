@@ -1,4 +1,4 @@
-
+# React
 
 React is a front end library
 
@@ -9,33 +9,33 @@ Why should use react?
 3. Virtual Dom concept
 4. Dynamic markup (JSX)
 
-PREREQUISITE:
+# PREREQUISITE:
 
 1.Basic Javascript (Datatypes, function and loops)
 2.Promises and Assynchronous
 3.Array methods like forEach & map()
 4.Fetch API and making HTTP request
 
-Topics:
+# Topics:
 1. Fundamental
 2. HTTP
 3. Routing
 4. Redux
 5. Utilities
 
-1. Fundamental
+## 1. Fundamental
 
 Two ways to create react project:
 
 What is NPX?
 NPX is nothing but npm package runner
-NPX - npx create-react-app project_name
-NPM - npm install create-react-app -g ; create-react-app project_name
+NPX - ` npx create-react-app project_name `
+NPM - ` npm install create-react-app -g ; create-react-app project_name `
 
-Components:
+### Components:
 
 Components are return html elements. each components are reusable
 
 Two types:
- 1. Stateless Functional components
- 2. Stateful Class components
+ 1. Functional components
+ 2. Class components
