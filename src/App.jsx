@@ -6,6 +6,8 @@ import JsExa from './examples/jsx/js_example.js';
 import JsxExa from './examples/jsx/jsx_example';
 import Human from './examples/props/props_example.js';
 import ClsState from './examples/states/class_state_example'
+import FunctionClk from './examples/events/functional_click';
+import ClassClk from './examples/events/class_click';
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
 
         {/* State Examples */}
         <ClsState/>
+
+        {/* Event Handling */}
+        <FunctionClk/><br/>
+        <ClassClk/><br/>
       </header>
     </div>
   );

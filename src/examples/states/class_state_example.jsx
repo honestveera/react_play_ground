@@ -15,7 +15,7 @@ class Counter extends React.Component {
     //   count: this.state.count + 1
     // }, () => console.log(this.state.count));
 
-    this.setState((prevState)=>({
+    this.setState((prevState) => ({
       count: prevState.count + 1
     }), () => console.log(this.state.count))
   }
@@ -28,7 +28,7 @@ class Counter extends React.Component {
     });
   }
 
-  incrementThree(){
+  incrementThree() {
     this.increment();
     this.increment();
     this.increment();
@@ -46,8 +46,8 @@ class Counter extends React.Component {
       } > Count < /button> <
       button onClick = {
         () => this.reset()
-      } > Reset < /button> <
-      /div>
+      } > Reset < /button> < /
+      div >
     )
   }
 

@@ -44,15 +44,20 @@ Two types:
 ### Props:
 
 Props means inputs of component or attributes of component or parameters of component.
-It is just an objects that contain attributes of component
-[Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/props/props_example.js)
+Props are arguments passed into React components.
+Props are passed to components via HTML attributes.
+
+[Props Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/props/props_example.js)
 
 ### State:
 
-State is an object. If object changes, It will re-render 
+React components has a built-in state object.
+The state object is where you store property values that belongs to the component.
+When the state object changes, the component re-renders.
+
  1. Functional component - useState
  2. Class component - this.state
-[Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/props/props_example.js)
+[State Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/states/class_state_example.js)
 
 
 
