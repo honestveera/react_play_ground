@@ -8,6 +8,10 @@ import Human from './examples/props/props_example.js';
 import ClsState from './examples/states/class_state_example'
 import FunctionClk from './examples/events/functional_click';
 import ClassClk from './examples/events/class_click';
+import BindEvent from './examples/bind_events/bind_event_handler.js';
+import ParentChild from './examples/method_props/parent_component';
+import ConditionalRender from './examples/conditional_render/con_render';
+import ListRendering from './examples/list_rendering/list_render';
 
 function App() {
   return (
@@ -38,6 +42,13 @@ function App() {
         {/* Event Handling */}
         <FunctionClk/><br/>
         <ClassClk/><br/>
+
+        {/* Binding Event Handler Formats */}
+        <BindEvent/><br/>
+        {/*Methods and Props*/}
+        <ParentChild/>
+        <ConditionalRender />
+        <ListRendering />
       </header>
     </div>
   );

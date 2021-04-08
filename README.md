@@ -59,6 +59,12 @@ When the state object changes, the component re-renders.
  2. Class component - this.state
 [State Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/states/class_state_example.js)
 
+### Event Handler:
+
+Handling element events onclick, keyup, keydown, mousehover, mouseout and so on
+
+[Class Event Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/events/class_click.jsx)
+[Function Event Example](https://github.com/honestveera/react_play_ground/blob/master/src/examples/events/function_click.jsx)
 
 
 ## Available Scripts
