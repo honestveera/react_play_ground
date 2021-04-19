@@ -12,21 +12,28 @@ import BindEvent from './examples/bind_events/bind_event_handler.js';
 import ParentChild from './examples/method_props/parent_component';
 import ConditionalRender from './examples/conditional_render/con_render';
 import ListRendering from './examples/list_rendering/list_render';
+import FormHandleExa from './examples/form_handling/form_handling_exa';
+import Mounting from './examples/life_cycle/mounting';
+import Updating from './examples/life_cycle/updating';
+import FragmentExample from './examples/fragments/fragment_example';
+import FRParent from './examples/refs/fr_ref_parent.jsx';
 
 function App() {
   return (
     <div className="App">
       <header className=''>
-        {/* Components Examples */}
+        {/* Components Examples
         <FunComponent name='Honest' color='red'/>
         <ClsComponent name='Raj' color='blue'/>
+        */}
 
-        {/* JSX Emaples */}
+        {/* JSX Emaples
         <JsExa name='Honest Rajs' action='What doing'/>
         <JsxExa native= "Thenila"/>
         <JsxExa native= "Maduraila"/>
+        */}
 
-        {/* Props with and without child elements */}
+        {/* Props with and without child elements
         <Human height='7 Feet' weight='85 Kgs'/>
         <Human height='8 Feet' weight='100 Kgs'>
           <li>Honest</li>
@@ -35,20 +42,42 @@ function App() {
         <Human height='5 Feet' weight='50 Kgs'>
           <button>Lets Do it</button>
         </Human>
+        */}
 
-        {/* State Examples */}
+        {/* State Examples
         <ClsState/>
+         */}
 
-        {/* Event Handling */}
+        {/* Event Handling
         <FunctionClk/><br/>
         <ClassClk/><br/>
+        */}
 
-        {/* Binding Event Handler Formats */}
+        {/* Binding Event Handler Formats
         <BindEvent/><br/>
-        {/*Methods and Props*/}
+        */}
+
+        {/*Methods and Props
         <ParentChild/>
         <ConditionalRender />
         <ListRendering />
+        */}
+
+        {/* Form Handling
+        <FormHandleExa/>
+        */}
+
+        {/* Life cycle
+          <Mounting/>
+          <Updating/>
+        */}
+
+        {/* Fragment */}
+        <FragmentExample/>
+
+        {/* Ref Exmaple */}
+        <FRParent/>
+
       </header>
     </div>
   );
