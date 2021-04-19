@@ -16,7 +16,13 @@ import FormHandleExa from './examples/form_handling/form_handling_exa';
 import Mounting from './examples/life_cycle/mounting';
 import Updating from './examples/life_cycle/updating';
 import FragmentExample from './examples/fragments/fragment_example';
-import FRParent from './examples/refs/fr_ref_parent.jsx';
+import FRParent from './examples/refs/fr_ref_parent';
+import Portal from './examples/portals/portal_example';
+import ClickCounter from './examples/higher_order_comp/click_counter';
+import HoverCounter from './examples/higher_order_comp/hover_counter';
+import Counter from './examples/render_props/counter';
+import RenderClickCounter from './examples/render_props/render_click_counter';
+import RenderHoverCounter from './examples/render_props/render_hover_counter';
 
 function App() {
   return (
@@ -72,11 +78,31 @@ function App() {
           <Updating/>
         */}
 
-        {/* Fragment */}
+        {/* Fragment
         <FragmentExample/>
+        */}
 
-        {/* Ref Exmaple */}
+        {/* Ref Exmaple
         <FRParent/>
+        */}
+
+        {/* Portal
+        <Portal />
+        */}
+
+        {/* HOC
+        <ClickCounter name='Honestraj'/>
+        <HoverCounter area='S.S.Puram' />
+        */}
+
+        {/* Render Props
+        <Counter populate= {(count, incrementCount)=>(
+            <RenderClickCounter count={count} incrementCount={incrementCount} />
+          )}/>
+        <Counter populate={(count, incrementCount)=>(
+          <RenderHoverCounter count={count} incrementCount={incrementCount} />
+        )}/>
+        */}
 
       </header>
     </div>
