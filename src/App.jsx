@@ -23,6 +23,9 @@ import HoverCounter from './examples/higher_order_comp/hover_counter';
 import Counter from './examples/render_props/counter';
 import RenderClickCounter from './examples/render_props/render_click_counter';
 import RenderHoverCounter from './examples/render_props/render_hover_counter';
+import ComponentA from './examples/context/component_a';
+import { UserProvider } from './examples/context/context';
+import HttpExample from './examples/http/http_example';
 
 function App() {
   return (
@@ -104,6 +107,14 @@ function App() {
         )}/>
         */}
 
+        {/* Context API
+        <UserProvider value = 'Honestraj Kandhasamy' >
+          <ComponentA/>
+        </UserProvider>
+        */}
+
+        {/* HTTP Get/Post*/}
+        <HttpExample/>
       </header>
     </div>
   );
