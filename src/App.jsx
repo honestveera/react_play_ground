@@ -32,6 +32,8 @@ import HookCounterObj from "./examples/hooks/usestate/hook_counter_object";
 import HookCounterArray from "./examples/hooks/usestate/hook_counter_array";
 import HookEffectOne from "./examples/hooks/useeffect/hook_useeffect";
 import HookMouseContainer from "./examples/hooks/useeffect/mouse_container";
+import FetchOne from "./examples/hooks/fetch/fetch_one"
+import FetchTwo from "./examples/hooks/fetch/fetch_two"
 
 function App() {
   return (
@@ -132,9 +134,12 @@ function App() {
 
         {/* UseEffect Example 
           <HookEffectOne/>
+          <HookMouseContainer/>
         */}
-      
-        <HookMouseContainer/>
+
+        {/* useEffect Fetch Data
+        <FetchOne/> */}
+        <FetchTwo/>
       </header>
     </div>
   );
