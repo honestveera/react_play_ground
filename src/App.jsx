@@ -27,7 +27,11 @@ import ComponentA from './examples/context/component_a';
 import { UserProvider } from './examples/context/context';
 import HttpExample from './examples/http/http_example';
 
-import HookStateExample from './examples/hooks/use_state_example.jsx'
+import HookStateExample from './examples/hooks/usestate/use_state_example.jsx';
+import HookCounterObj from "./examples/hooks/usestate/hook_counter_object";
+import HookCounterArray from "./examples/hooks/usestate/hook_counter_array";
+import HookEffectOne from "./examples/hooks/useeffect/hook_useeffect";
+import HookMouseContainer from "./examples/hooks/useeffect/mouse_container";
 
 function App() {
   return (
@@ -120,8 +124,17 @@ function App() {
         */}
 
         {/* Hooks Example */}
+        {/* UseState Example 
         <HookStateExample/>
+        <HookCounterObj/>
+        <HookCounterArray/>
+        */}
 
+        {/* UseEffect Example 
+          <HookEffectOne/>
+        */}
+      
+        <HookMouseContainer/>
       </header>
     </div>
   );

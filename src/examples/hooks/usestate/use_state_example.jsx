@@ -14,8 +14,8 @@ function UseStateExample() {
     <div>
       Count : {count}
       <button onClick={() => setCount(intialCount)}>Reset</button>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button onClick={() => setCount(prevCoun => prevCoun + 1)}>Increment</button>
+      <button onClick={() => setCount(prevCoun => prevCoun - 1)}>Decrement</button>
       <button onClick={incrementFive}>Increment 5</button>
     </div>
   );
