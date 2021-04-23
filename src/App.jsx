@@ -27,6 +27,8 @@ import ComponentA from './examples/context/component_a';
 import { UserProvider } from './examples/context/context';
 import HttpExample from './examples/http/http_example';
 
+import HookStateExample from './examples/hooks/use_state_example.jsx'
+
 function App() {
   return (
     <div className="App">
@@ -113,8 +115,13 @@ function App() {
         </UserProvider>
         */}
 
-        {/* HTTP Get/Post*/}
+        {/* HTTP Get/Post
         <HttpExample/>
+        */}
+
+        {/* Hooks Example */}
+        <HookStateExample/>
+
       </header>
     </div>
   );

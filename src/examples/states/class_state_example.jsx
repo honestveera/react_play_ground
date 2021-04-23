@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
 class Counter extends React.Component {
-
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      count: 0
-    }
+      count: 0,
+    };
   }
 
   increment() {
@@ -15,17 +14,23 @@ class Counter extends React.Component {
     //   count: this.state.count + 1
     // }, () => console.log(this.state.count));
 
-    this.setState((prevState) => ({
-      count: prevState.count + 1
-    }), () => console.log(this.state.count))
+    this.setState(
+      (prevState) => ({
+        count: prevState.count + 1,
+      }),
+      () => console.log(this.state.count)
+    );
   }
 
   reset() {
-    this.setState({
-      count: 0
-    }, () => {
-      console.log(this.state.count)
-    });
+    this.setState(
+      {
+        count: 0,
+      },
+      () => {
+        console.log(this.state.count);
+      }
+    );
   }
 
   incrementThree() {
@@ -35,22 +40,14 @@ class Counter extends React.Component {
   }
 
   render() {
-    return ( <
-      div >
-      <
-      p > Counter: {
-        this.state.count
-      } < /p> <
-      button onClick = {
-        () => this.incrementThree()
-      } > Count < /button> <
-      button onClick = {
-        () => this.reset()
-      } > Reset < /button> < /
-      div >
-    )
+    return (
+      <div>
+        <p> Counter: {this.state.count} </p>{" "}
+        <button onClick={() => this.incrementThree()}> Count </button>{" "}
+        <button onClick={() => this.reset()}> Reset </button>{" "}
+      </div>
+    );
   }
-
 }
 
 export default Counter;
