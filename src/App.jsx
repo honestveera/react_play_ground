@@ -34,6 +34,11 @@ import HookEffectOne from "./examples/hooks/useeffect/hook_useeffect";
 import HookMouseContainer from "./examples/hooks/useeffect/mouse_container";
 import FetchOne from "./examples/hooks/fetch/fetch_one"
 import FetchTwo from "./examples/hooks/fetch/fetch_two"
+import ContextExample from './examples/hooks/usecontext/component_a';
+import { ContextHook, ContextChannel } from './examples/hooks/usecontext/context';
+import UseReducerOne from './examples/hooks/usereducer/UseReducerOne'
+import UseReducerTwo from './examples/hooks/usereducer/useReducerTwo'
+import FetchReducer from "./examples/hooks/fetch/fetch_three_reducer.jsx";
 
 function App() {
   return (
@@ -138,8 +143,23 @@ function App() {
         */}
 
         {/* useEffect Fetch Data
-        <FetchOne/> */}
-        <FetchTwo/>
+        <FetchOne/>
+        <FetchTwo/> */}
+
+         {/* useContext
+         <ContextHook.Provider value ='Honestraj Kandhasamy'>
+         <ContextChannel.Provider value={[1,2,3,4]}>
+            <ContextExample/>
+         </ContextChannel.Provider> 
+         </ContextHook.Provider> 
+         */}
+
+         {/* UseReducer 
+         <UseReducerOne/>
+         <UseReducerTwo/>
+         */}
+         <FetchReducer/>
+
       </header>
     </div>
   );
