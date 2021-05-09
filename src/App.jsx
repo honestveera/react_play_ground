@@ -27,20 +27,22 @@ import ComponentA from './examples/context/component_a';
 import { UserProvider } from './examples/context/context';
 import HttpExample from './examples/http/http_example';
 
-import HookStateExample from './examples/hooks/usestate/use_state_example.jsx';
-import HookCounterObj from "./examples/hooks/usestate/hook_counter_object";
-import HookCounterArray from "./examples/hooks/usestate/hook_counter_array";
-import HookEffectOne from "./examples/hooks/useeffect/hook_useeffect";
-import HookMouseContainer from "./examples/hooks/useeffect/mouse_container";
-import FetchOne from "./examples/hooks/fetch/fetch_one"
-import FetchTwo from "./examples/hooks/fetch/fetch_two"
-import ContextExample from './examples/hooks/usecontext/component_a';
-import { ContextHook, ContextChannel } from './examples/hooks/usecontext/context';
-import UseReducerOne from './examples/hooks/usereducer/UseReducerOne'
-import UseReducerTwo from './examples/hooks/usereducer/useReducerTwo'
-import FetchReducer from "./examples/hooks/fetch/fetch_three_reducer.jsx";
-import UseCalllback from "./examples/hooks/usecallback/ParentComponent.jsx";
-import UseMemo from "./examples/hooks/usememo/MemoExmaple.jsx";
+import HookStateExample from './examples/hooks_example/usestate/use_state_example.jsx';
+import HookCounterObj from "./examples/hooks_example/usestate/hook_counter_object";
+import HookCounterArray from "./examples/hooks_example/usestate/hook_counter_array";
+import HookEffectOne from "./examples/hooks_example/useeffect/hook_useeffect";
+import HookMouseContainer from "./examples/hooks_example/useeffect/mouse_container";
+import FetchOne from "./examples/hooks_example/fetch/fetch_one"
+import FetchTwo from "./examples/hooks_example/fetch/fetch_two"
+import ContextExample from './examples/hooks_example/usecontext/component_a';
+import { ContextHook, ContextChannel } from './examples/hooks_example/usecontext/context';
+import UseReducerOne from './examples/hooks_example/usereducer/UseReducerOne'
+import UseReducerTwo from './examples/hooks_example/usereducer/useReducerTwo'
+import FetchReducer from "./examples/hooks_example/fetch/fetch_three_reducer.jsx";
+import UseCalllback from "./examples/hooks_example/usecallback/ParentComponent.jsx";
+import UseMemo from "./examples/hooks_example/usememo/MemoExmaple.jsx";
+import CustomHookOne from "./examples/hooks_example/customhook/CounterOne";
+import CustomHookTwo from "./examples/hooks_example/customhook/CounterTwo";
 
 function App() {
   return (
@@ -164,8 +166,12 @@ function App() {
 
           {/* UseCallback 
             <UseCalllback/>
+            <UseMemo/>
           */}
-         <UseMemo/>
+
+          {/* CustomHook */}
+          <CustomHookOne/>
+          <CustomHookTwo/>
 
       </header>
     </div>
