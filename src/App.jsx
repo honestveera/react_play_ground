@@ -39,6 +39,8 @@ import { ContextHook, ContextChannel } from './examples/hooks/usecontext/context
 import UseReducerOne from './examples/hooks/usereducer/UseReducerOne'
 import UseReducerTwo from './examples/hooks/usereducer/useReducerTwo'
 import FetchReducer from "./examples/hooks/fetch/fetch_three_reducer.jsx";
+import UseCalllback from "./examples/hooks/usecallback/ParentComponent.jsx";
+import UseMemo from "./examples/hooks/usememo/MemoExmaple.jsx";
 
 function App() {
   return (
@@ -157,8 +159,13 @@ function App() {
          {/* UseReducer 
          <UseReducerOne/>
          <UseReducerTwo/>
-         */}
          <FetchReducer/>
+         */}
+
+          {/* UseCallback 
+            <UseCalllback/>
+          */}
+         <UseMemo/>
 
       </header>
     </div>
