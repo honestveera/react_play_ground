@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
-function useCounter() {
-  const [count, setCount] = useState(0)
+function useCounter(intialCount = 0 , value) {
+  const [count, setCount] = useState(intialCount)
 
   const increment = () => {
-    setCount(prevcount => prevcount + 1)
+    setCount(prevcount => prevcount + value)
   }
 
   const decrement = () => {
-    setCount(prevcount => prevcount - 1)
+    setCount(prevcount => prevcount - value)
   }
 
   const reset = () => {
